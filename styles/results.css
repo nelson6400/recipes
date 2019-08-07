@@ -1,9 +1,8 @@
 body {
   margin: 0;
   padding: 0;
-  display: flex;
   flex-direction: column;
-  align-items: center;
+  text-align: center;
   background-image: radial-gradient(yellow, orange, red);
   background-size: cover;
   height: 100vh;
@@ -22,11 +21,6 @@ section {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-#image {
-  display: flex;
-  flex-direction: row;
 }
 
 #text {
