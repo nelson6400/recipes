@@ -12,19 +12,28 @@ body {
 }
 
 h1 {
-  color: white;
+  color: green;
   text-align: center;
   font-family: Arial;
   text-shadow: 1px 1px 4px black;
   font-size: 50px;
 }
 
-div.Search {
+#Search {
   border: 1px solid black;
   margin: 10px;
   padding: 10px;
   text-align: center;
   background-color: white;
-  color: black;
+  color: green;
+  border-radius: 20px;
+}
+
+#Submit {
+  border: 1px solid black;
+  margin: 10px;
+  padding: 10px;
+  text-align: center;
+  background-color: white;
   border-radius: 20px;
 }
