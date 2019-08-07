@@ -11,11 +11,14 @@
 
       {% for result in results.results %}
       <div id="flexbox">
-      <div>
-        <!-- {% if "" in {{ result.thumbnail }} %} -->
+
+        {% if result.thumbnail %}
+        <div>
             <img id="image" src="{{ result.thumbnail }}">
-        <!-- {% endif %} -->
-      </div>
+        </div>
+
+        {% endif %}
+
       <div id="text">
         <p>{{ result.title }}
         <p>{{ result.ingredients }}</p>
